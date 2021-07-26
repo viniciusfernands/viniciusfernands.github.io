@@ -1,3 +1,61 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+body {
+    color: #3d495c;
+    font-family: Montserrat, sans-serif;
+    background-color: #FFFBFE;
+    margin: 25px;
+}
+
+.formation-text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 2px 2px;
+    padding-left: 5px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: #470FF4;
+    background-color: #d3d3d3;
+    width: fit-content;
+}
+
+.image-reference {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.banner-title {
+    margin-bottom: 2px;
+}
+
+.inline-about  {
+    background-color: #333;
+    list-style-type: none;
+    text-align: left;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.inline-about li{
+    display: inline-block;
+    font-size: 21px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+a.inline-link:link{
+    color: #ffffff; 
+    text-decoration: none;
+    background-color: #333;
+    text-align: center;
+    padding: 16px 16px;
+}
+a.inline-link:visited{
+    color: #ffffff; 
+    text-decoration: none;}
+a.inline-link:hover{
+    color: #FFFBFE; 
+    text-decoration: underline;
+    background-color: #3d495c;}

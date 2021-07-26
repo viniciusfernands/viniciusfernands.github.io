@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #272635;
+    background-color: #E0E0E0;
+    font-family: Montserrat, Arial, sans-serif;  
+}
+/*----------Start - Topico sobre a area de menu do portfolio----------*/
+.menu {
+    padding: 10px 20px 10px 0px; /*ajusta o tamanho do menu*/
+    background-color: #222;
+    list-style: none;
+}
+
+.menu-about li {               /*faz o menu ficar em linha e com cor*/
+    display: inline;
+    text-align: center;
+    padding: 0px;
+    background-color: #222;
+    font-size: 16px;
+}
+
+.menu-about a {                /*define uma cor padrão para os 'submenus'*/
+    padding: 10px 25px;
+    color: #E0E0E0;
+}
+
+.menu-about a:hover {          /*estiliza os 'submenus'*/
+    text-decoration: none;
+    background-color: #000;
+    transition: background-color 0.2s;
+}
+
+.menu-about a:visited {
+    text-decoration: none;
+}
+
+.menu-about a:link {
+    text-decoration: none;
+}
+/*----------End - Topico sobre a area de menu do portfolio----------*/
+
+/*----------Start - Topico sobre o banner com a minha foto e um pouco sobre----------*/
+.banner {
+    margin: 10px;
+    padding: 15%;
+    background-color: #e0ffff;
+}
+
+.banner-image {
+    width: 260px;
+    margin: 0px 150px 0px 0px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+.banner-info {
+
+}
+
+.banner-title {
+    
+}
+
+.banner-study {
+}
+
+.banner-text {
+}
+
+
+
+
+
+
+
+
+
+
+.soft-skills {
+    clear: both;
+    margin: 10px;
+    padding: 25%;
+}
+
+.hard-skilss {
+    clear: both;
+    margin: 10px;
+    padding: 25%;
+}
+
+.projetos {
+    clear: both;
+    margin: 10px;
+    padding: 25%;
+}

@@ -1,92 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
+
     <meta charset="UTF-8">
     <title>Vinicius's Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style2.css">
 
-    <style>
-        body {
-            color: #3d495c;
-            font-family: Montserrat, sans-serif;
-            background-color: #FFFBFE;
-            margin: 29px;
-        }
-
-        .formation-text {
-            font-size: 12px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: 500;
-            margin: 2px 2px;
-            padding-left: 5px;
-            border-left-style: solid;
-            border-left-width: 2px;
-            border-left-color: #470FF4;
-            background-color: #d3d3d3;
-            width: fit-content;
-        }
-
-        .image-reference {
-            border-radius: 50%;
-            border-style: solid;
-            border-width: 2px;
-
-        }
-
-        .banner-title {
-            margin-bottom: 2px;
-        }
-
-        .inline-about  {
-            background-color: #ffffff;
-            list-style-type: none;
-            text-align: center;
-            margin: 0px;
-            padding: 0px;
-        }
-        
-        .inline-about li{
-            display: inline-block;
-            font-size: 19px;
-            padding: 27px;
-        }
-
-
-    </style>
   </head>
+
   <body>
-      <!-- Sobre mim -->
-    <div>
-        <ul class="inline-about">
+    <!-- --------Start - Menu--------- -->
+    <div class="menu"> 
+        <ul class="menu-about">
             <li><a href="#image-reference">Quem sou?</a></li>
             <li><a href="#soft_skills">Soft Skills</a></li>
             <li><a href="#hard_skills">Hard Skills</a></li>
             <li><a href="#projetos">Projetos</a></li>
         </ul>
     </div>
-    <hr>
-     <!-- Quem sou?    -->
-    <div>
+    <!-- ----------End - Menu--------- -->
 
-        <img class="image-reference" src="WhatsApp Image 2021-07-09 at 16.32.23.jpeg" alt="Uma foto 
-        minha com uma blusa rosa desbotada muito bonita" width="197">
+    <div class="banner">
 
+        <img class="banner-image" src="WhatsApp Image 2021-07-09 at 16.32.23.jpeg" alt="Uma foto 
+        minha com uma blusa rosa desbotada muito bonita">
 
-        <h2 class="banner-title">Vinicius Fernandes</h2> 
-
-
-        <p class="formation-text">Estudante na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> | Técnico em Adm pela ETEC Dr.Julio Cardoso.<br></p>
+        <div class="banner-info">
+            <h2 class="banner-title">Vinicius Fernandes</h2> 
 
 
-        <p>Brasileiro nascido na cidade de Franca no interior de São Paulo. <br>Atualmente residindo em São João Batista interior de Santa Catarina.<br> Amante e admirador de tecnologia.</p>
+            <p class="banner-study">Estudante na <a href="https://www.betrybe.com/" target="_blank">Trybe</a> | Técnico em Adm pela ETEC Dr.Julio Cardoso.<br></p>
 
+
+            <p class="banner-text">Brasileiro nascido na cidade de Franca no interior de São Paulo. <br>Atualmente residindo em São João Batista interior de Santa Catarina.<br> Amante e admirador de tecnologia.</p>
+        </div>
         
     </div>
     <!-- Soft Skills -->
-    <div>
+    <div class="soft-skills">
         <h2 id="soft_skills">Soft Skills</h2>
         <ul>
             <li>Empatia</li>
@@ -97,12 +53,12 @@
         </ul>
     </div>
     <!-- Hard Skills -->
-    <div>
+    <div class="hard-skills">
         <h2 id="hard_skills">Hard Skills</h2>
         <p><em><strong>*Em Construção*</strong></em></p>
     </div>
     <!-- Projetos -->
-    <div>
+    <div class="projetos">
         <h2 id="projetos">Projetos</h2>
         <ol>
             <li><a href="https://github.com/viniciusfernands/trybe-exercicios" target="_blank">GitHub</a></li>
